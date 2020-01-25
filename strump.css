@@ -1,0 +1,49 @@
+html, body {
+  height: 98%;
+}
+
+#container {
+  height: 98%;
+}
+
+#main, #sidebar {
+  float: left;
+  width: 50%;
+  margin-top: 50px;
+  overflow: auto;
+  height: 100%;
+}  
+
+.navbar {
+  overflow: hidden;
+  background-color: #def;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar input {
+  float: left;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.list-group {
+  z-index: 999;
+}
+
+#searchclear {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  height: 30px;
+  margin: auto;
+  font-size: 14px;
+  cursor: pointer;
+  color: #123;
+}
+
