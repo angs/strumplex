@@ -6,7 +6,7 @@ function filterhittar() {
 }
 
 $(document).ready(function(){
-  for (var i of ordlist){
+  for (var i of Object.keys(dict)){
 	  var item = $('<li/>').addClass("list-group-item").text(i);
     $("#hittar").append(item);
 	}
